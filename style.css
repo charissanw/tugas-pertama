@@ -1,0 +1,141 @@
+/* reset style */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to bottom right, #ffccdd, #ffe6f0);
+    color: #333;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ff6699;
+    padding: 15px 40px;
+    border-radius: 10px 10px 0 0;
+}
+
+.navbar .brand {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.navbar ul li {
+    display: inline;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.navbar ul li a:hove {
+    text-decoration: underline;
+}
+
+/* Header */
+#section2 {
+    border: none;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 3px 10px rgba(0,0,0,0.1);
+    padding: 30px;
+}
+
+#section2 img {
+    max-width: 400px;
+    height: auto;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+#section2 h1 {
+    color: #ff3366;
+}
+
+#section2 button {
+    background-color: #ff6699;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    display: block;
+    margin-top: 20px auto 0 auto;
+}
+
+#section2 button:hover {
+    background-color: #fff0f5;
+}
+
+/* Biodata*/
+#section3 {
+    border: none;
+    background-color: #fff0f5;
+    border-radius: 15px;
+    padding: 10px;
+    margin-top: 20px;
+    box-shadow: 0px 3px 8px rgba(0,0,0,0.1);
+}
+
+#section3 h2 {
+    color: #ff3366;
+    margin-bottom: 20px;
+}
+
+#section3 td {
+    background: #ffe4e1;
+    border-radius: 12px;
+    padding: 15px 20px;
+    margin: 10px;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+    font-weight: 500;
+}
+
+/* Supaya table biodata tidak ada border default */
+#section3 table {
+    border-collapse: separate;
+    border-spacing: 15px; /* jarak antar bubble */
+    margin: 0 auto;
+    width: 80%;
+}
+
+/* Portofolio */
+#section4 {
+    border: none;
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0px 3px 8px rgba(0,0,0,0.1);
+}
+
+#section4 h2 {
+    color: #ff3366;
+}
+
+#section4 img {
+    width: 220px;
+    height: 140px;
+    border-radius: 10px;
+    object-fit: cover;
+    object-position: center;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+    background: #ffe6f0; 
+}
+
+/* Footer */
+Footer {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #ff6699;
+    color: white;
+    font-weight: bold;
+    border-radius: 0 0 15px 15px;
+}
